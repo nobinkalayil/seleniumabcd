@@ -1,0 +1,12 @@
+Feature: Sign in
+  As an end user
+  I want to sign in CO OP
+  So that i can register any account
+
+  @regession
+  Scenario: verify sign in with valid details
+
+    Given I am on homepage
+    When I click sign in box
+    And I enter all valid details
+    Then then I should be see a message that I successfully registerd.

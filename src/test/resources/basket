@@ -1,0 +1,16 @@
+Feature: Create an account
+  As a end user
+  I want to create an account in CO OP
+  So I can successfully register to CO OP account
+
+  Scenario: Verify when customer click create account link I should reach in membership page
+    Given I am in sign in page
+    And I click on create button
+    And It should ask me "Do you have a Co‑op card or key fob?"
+    And I select no
+    And I should see registration page
+
+    When a customer enter all valid details in the registration form
+    And select marketing preference
+    And click in continue proceed
+    Then custemer should see payment page
