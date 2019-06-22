@@ -1,7 +1,7 @@
 import cucumber.api.Scenario;
+import cucumber.api.java.After;
 import cucumber.api.java.Before;
 import driver.DriverManager;
-import org.junit.After;
 import org.junit.Test;
 
 public class Hooks {
@@ -15,7 +15,7 @@ public class Hooks {
         driverManager.maximise();
         driverManager.implicitWait();
     }
-
+@After
     public void tearDown(Scenario scenario){
 
 

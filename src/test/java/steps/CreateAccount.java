@@ -79,7 +79,7 @@ public class CreateAccount extends DriverManager {
         //String postcodetext= postcode.getText();
         Actions actions = new Actions(driver);
         actions.click(postcodeList.get(1)).build().perform();
-        driver.findElement(By.id("member-email")).sendKeys("nobin123@gmail.com");
+        driver.findElement(By.id("tember-email")).sendKeys("nobin123@gmail.com");
         driver.findElement(By.id("member-confirm-email")).sendKeys("nobin123@gmail.com");
         driver.findElement(By.id("member-password")).sendKeys("N4ass165ee");
         driver.findElement(By.id("member-confirm-password")).sendKeys("N4ass165ee");
