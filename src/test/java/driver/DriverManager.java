@@ -19,7 +19,7 @@ import java.util.UUID;
 import java.util.concurrent.TimeUnit;
 
 public class DriverManager {
-    private TakesScreenshot screenshotTaker;
+
     public static WebDriver driver;
     private String browser;
     public void openBrowser(){

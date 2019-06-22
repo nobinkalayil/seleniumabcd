@@ -82,7 +82,7 @@ public class CreateAccount extends DriverManager {
         driver.findElement(By.id("member-email")).sendKeys("nobin123@gmail.com");
         driver.findElement(By.id("member-confirm-email")).sendKeys("nobin123@gmail.com");
         driver.findElement(By.id("member-password")).sendKeys("N4ass165ee");
-        driver.findElement(By.id("member-confirm-password")).sendKeys("N4ass165ee   A");
+        driver.findElement(By.id("member-confirm-password")).sendKeys("N4ass165ee");
 
 
     }

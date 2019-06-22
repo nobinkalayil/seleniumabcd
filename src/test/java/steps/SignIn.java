@@ -26,7 +26,7 @@ public class SignIn extends DriverManager {
 
     @When("^I enter all valid details$")
     public void i_enter_all_valid_details() throws Throwable {
-        driver.findElement(By.cssSelector("#member-email")).sendKeys("nobinkalayil84@gmail.com");
+        driver.findElement(By.cssSelector("#member-email")).sendKeys("nobin4kalayil@gmail.com");
         driver.findElement(By.cssSelector(".member-password-input")).sendKeys("N4ass165ee");
         driver.findElement(By.cssSelector(".btn-primary")).click();
 
